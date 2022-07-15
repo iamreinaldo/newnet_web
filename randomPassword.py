@@ -41,3 +41,11 @@ class Senha:
         user = input('\nDigite o usuário dessa senha: ')
         address = input('Digite em que endereço essa conta será necessária: ')
         return (user, address)
+
+
+    def conecta_database():
+        pass
+
+
+    def escreve_database():
+        pass
