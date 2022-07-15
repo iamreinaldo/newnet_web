@@ -15,4 +15,4 @@ qtd_char = Senha.define_qtd_char()
 user, address = Senha.cria_cadastro()
 
 #aplicação imprime usuário, endereço e senha
-print(f"\nUsuário: {user}  -  Endereço: {address}  -  Sebha: {Senha.gera_senha(qtd_char, escolha)}")
+print(f"\nUsuário: {user}  -  Endereço: {address}  -  Senha: {Senha.gera_senha(qtd_char, escolha)}")
