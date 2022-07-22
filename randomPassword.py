@@ -2,6 +2,7 @@ from operator import add
 import random
 import string
 
+
 class Senha:
 
     # função checa entradas do usuário para a geração de strings semirandômicas com ou sem símbolos

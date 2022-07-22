@@ -1,3 +1,4 @@
+import os
 # from randomPassword import cria_cadastro, define_qtd_char, gera_senha, valida_escolha
 from randomPassword import Senha
 
@@ -16,3 +17,4 @@ user, address = Senha.cria_cadastro()
 
 #aplicação imprime usuário, endereço e senha
 print(f"\nUsuário: {user}  -  Endereço: {address}  -  Senha: {Senha.gera_senha(qtd_char, escolha)}")
+os.system("PAUSE")
