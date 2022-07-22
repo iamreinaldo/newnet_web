@@ -18,3 +18,6 @@ user, address = Senha.cria_cadastro()
 #aplicação imprime usuário, endereço e senha
 print(f"\nUsuário: {user}  -  Endereço: {address}  -  Senha: {Senha.gera_senha(qtd_char, escolha)}")
 os.system("PAUSE")
+
+
+#próximo passo é conectar e importar para um banco de dados
